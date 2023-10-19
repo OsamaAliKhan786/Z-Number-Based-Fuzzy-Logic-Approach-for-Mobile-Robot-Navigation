@@ -24,30 +24,6 @@ class ZNumber:
         else:
             raise ValueError(f"Invalid defuzzification method: {method}")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # This implementation provides support for multiplying two Z-numbers and for defuzzifying a Z-number using the centroid method. The __mul__ method implements the algebraic product rule for Z-numbers, and the defuzzify method computes the centroid of the Z-number using the Sugeno integral formula.
 
 # explanation of the Z-number multiplication and defuzzification using the centroid method mathematically:
